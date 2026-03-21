@@ -32,7 +32,7 @@ This forces Android's PackageManager to re-register all components from scratch,
 - **ADB** installed on your computer ([download](https://developer.android.com/tools/releases/platform-tools))
 - **USB cable** connecting phone to computer
 - **iPhone** in initial setup flow with Move to iOS ready
-- **macOS recommended** — ADB works natively on Mac via USB. On Windows, WSL has known issues with ADB due to USB passthrough and networking complexity between the WSL guest and Windows host. If you must use Windows, run ADB from PowerShell/CMD directly, not from WSL.
+- **macOS recommended** — ADB works natively on Mac via USB. On Windows with WSL, note that WSL cannot access USB devices directly. You must use the **Windows `adb.exe`**, not a Linux ADB binary. The simplest approach is to symlink it: `sudo ln -s /mnt/c/platform-tools/adb.exe /usr/bin/adb`. Alternatively, run the script from PowerShell/CMD directly.
 
 ## Quick Start
 
