@@ -32,6 +32,7 @@ This forces Android's PackageManager to re-register all components from scratch,
 - **ADB** installed on your computer ([download](https://developer.android.com/tools/releases/platform-tools))
 - **USB cable** connecting phone to computer
 - **iPhone** in initial setup flow with Move to iOS ready
+- **macOS recommended** — ADB works natively on Mac via USB. On Windows, WSL has known issues with ADB due to USB passthrough and networking complexity between the WSL guest and Windows host. If you must use Windows, run ADB from PowerShell/CMD directly, not from WSL.
 
 ## Quick Start
 
@@ -96,4 +97,4 @@ The full debugging journey — including attempts at forcing package visibility,
 
 ## License
 
-[MIT](LICENSE) - Digital Rain Technology Limited
+[MIT](LICENSE) - Digital Rain Technologies, Ltd.
