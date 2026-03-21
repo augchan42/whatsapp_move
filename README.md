@@ -89,6 +89,34 @@ Then rerun `./fix.sh`.
 - If the fresh install fails for any reason, the script automatically restores WhatsApp from a backup copy.
 - As an extra precaution, back up your WhatsApp chats to Google Drive before running the fix (WhatsApp > Settings > Chats > Chat backup).
 
+## Claude Code Skill
+
+If you use [Claude Code](https://claude.ai/claude-code), you can install this as a skill so it's always available when you mention Move to iOS issues.
+
+### Install
+
+```bash
+# Copy the skill to your global skills directory
+mkdir -p ~/.claude/skills/fix-move-to-ios-whatsapp
+cp skill/skill.md ~/.claude/skills/fix-move-to-ios-whatsapp/skill.md
+```
+
+### Usage
+
+Once installed, you can invoke it directly:
+
+```
+/fix-move-to-ios-whatsapp
+```
+
+Or just describe the problem naturally — Claude will detect the trigger and apply the skill automatically:
+
+> "Move to iOS isn't transferring WhatsApp"
+> "WhatsApp toggle fails in Move to iOS"
+> "Failed to find provider com.whatsapp.provider.migrate.ios"
+
+The skill walks through device detection, diagnosis, and the fix — all through ADB commands in your terminal.
+
 ## Background
 
 This fix was born from a weekend of trying to migrate 3 Android phones to iPhones. Every single one failed on the WhatsApp transfer step. After hours of ADB debugging, logcat analysis, and exploring open-source migration tools, we discovered that a simple reinstall from a fresh APK resolves the issue.
