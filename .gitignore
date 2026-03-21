@@ -1,0 +1,27 @@
+# Sensitive data - NEVER commit
+devices/
+tools/
+*.ab
+*.tar
+*.db
+*.db-wal
+*.db-shm
+*.apk
+key
+
+# Vendor repos (cloned separately)
+vendor/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+
+# Claude
+.claude/
