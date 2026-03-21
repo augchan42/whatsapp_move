@@ -96,7 +96,11 @@ If you use [Claude Code](https://claude.ai/claude-code), install this as a plugi
 ### Install via Plugin
 
 ```bash
-/plugin install digital-rain-tech/whatsapp_move
+# Step 1: Add the marketplace
+/plugin marketplace add digital-rain-tech/whatsapp_move
+
+# Step 2: Install the plugin
+/plugin install fix-move-to-ios-whatsapp@digital-rain-tech
 ```
 
 ### Manual Install
