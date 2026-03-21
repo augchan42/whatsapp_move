@@ -1,11 +1,16 @@
 {
   "name": "fix-move-to-ios-whatsapp",
-  "version": "1.0.0",
   "description": "Fix Move to iOS WhatsApp transfer failure on Android 11+ devices. Diagnoses and resolves the ContentProvider visibility bug by reinstalling WhatsApp from a fresh APK.",
-  "author": "Digital Rain Technologies, Ltd.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Digital Rain Technologies, Ltd.",
+    "url": "https://github.com/digital-rain-tech"
+  },
   "homepage": "https://github.com/digital-rain-tech/whatsapp_move",
+  "repository": "https://github.com/digital-rain-tech/whatsapp_move",
   "license": "MIT",
+  "keywords": ["android", "ios", "whatsapp", "move-to-ios", "migration", "adb", "transfer"],
   "skills": [
-    "skill/skill.md"
+    "./skills/fix-move-to-ios-whatsapp"
   ]
 }

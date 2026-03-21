@@ -107,7 +107,7 @@ If you use [Claude Code](https://claude.ai/claude-code), install this as a plugi
 
 ```bash
 mkdir -p ~/.claude/skills/fix-move-to-ios-whatsapp
-cp skill/skill.md ~/.claude/skills/fix-move-to-ios-whatsapp/skill.md
+cp skills/fix-move-to-ios-whatsapp/SKILL.md ~/.claude/skills/fix-move-to-ios-whatsapp/SKILL.md
 ```
 
 ### Usage

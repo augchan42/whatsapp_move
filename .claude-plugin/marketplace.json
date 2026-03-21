@@ -1,15 +1,17 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "digital-rain-tech",
-  "description": "Tools by Digital Rain Technologies, Ltd.",
+  "owner": { "name": "Digital Rain Technologies, Ltd." },
   "plugins": [
     {
       "name": "fix-move-to-ios-whatsapp",
       "description": "Fix Move to iOS WhatsApp transfer failure on Android 11+. Diagnoses and resolves the ContentProvider visibility bug by reinstalling WhatsApp from a fresh APK.",
-      "version": "1.0.0",
       "source": {
         "source": "github",
         "repo": "digital-rain-tech/whatsapp_move"
-      }
+      },
+      "category": "development",
+      "homepage": "https://github.com/digital-rain-tech/whatsapp_move"
     }
   ]
 }
