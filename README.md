@@ -89,27 +89,32 @@ Then rerun `./fix.sh`.
 - If the fresh install fails for any reason, the script automatically restores WhatsApp from a backup copy.
 - As an extra precaution, back up your WhatsApp chats to Google Drive before running the fix (WhatsApp > Settings > Chats > Chat backup).
 
-## Claude Code Skill
+## Claude Code Plugin
 
-If you use [Claude Code](https://claude.ai/claude-code), you can install this as a skill so it's always available when you mention Move to iOS issues.
+If you use [Claude Code](https://claude.ai/claude-code), install this as a plugin for automatic detection and guided fixes.
 
-### Install
+### Install via Plugin
 
 ```bash
-# Copy the skill to your global skills directory
+/plugin install digital-rain-tech/whatsapp_move
+```
+
+### Manual Install
+
+```bash
 mkdir -p ~/.claude/skills/fix-move-to-ios-whatsapp
 cp skill/skill.md ~/.claude/skills/fix-move-to-ios-whatsapp/skill.md
 ```
 
 ### Usage
 
-Once installed, you can invoke it directly:
+Invoke directly:
 
 ```
 /fix-move-to-ios-whatsapp
 ```
 
-Or just describe the problem naturally — Claude will detect the trigger and apply the skill automatically:
+Or just describe the problem — Claude detects the trigger automatically:
 
 > "Move to iOS isn't transferring WhatsApp"
 > "WhatsApp toggle fails in Move to iOS"
