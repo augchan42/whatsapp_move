@@ -37,8 +37,8 @@ This forces Android's PackageManager to re-register all components from scratch,
 ## Quick Start
 
 ```bash
-git clone https://github.com/digital-rain-tech/whatsapp-move-to-ios-fix.git
-cd whatsapp-move-to-ios-fix
+git clone https://github.com/augchan42/whatsapp_move.git
+cd whatsapp_move
 ./fix.sh
 ```
 
@@ -97,10 +97,10 @@ If you use [Claude Code](https://claude.ai/claude-code), install this as a plugi
 
 ```bash
 # Step 1: Add the marketplace
-/plugin marketplace add digital-rain-tech/whatsapp_move
+/plugin marketplace add augchan42/whatsapp_move
 
 # Step 2: Install the plugin
-/plugin install fix-move-to-ios-whatsapp@digital-rain-tech
+/plugin install fix-move-to-ios-whatsapp@augchan42
 ```
 
 ### Manual Install
@@ -134,4 +134,4 @@ The full debugging journey — including attempts at forcing package visibility,
 
 ## License
 
-[MIT](LICENSE) - Digital Rain Technologies, Ltd.
+[MIT](LICENSE) - Augustin Chan

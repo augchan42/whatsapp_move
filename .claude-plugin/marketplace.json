@@ -1,17 +1,17 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "digital-rain-tech",
-  "owner": { "name": "Digital Rain Technologies, Ltd." },
+  "name": "augchan42",
+  "owner": { "name": "Augustin Chan" },
   "plugins": [
     {
       "name": "fix-move-to-ios-whatsapp",
       "description": "Fix Move to iOS WhatsApp transfer failure on Android 11+. Diagnoses and resolves the ContentProvider visibility bug by reinstalling WhatsApp from a fresh APK.",
       "source": {
         "source": "github",
-        "repo": "digital-rain-tech/whatsapp_move"
+        "repo": "augchan42/whatsapp_move"
       },
       "category": "development",
-      "homepage": "https://github.com/digital-rain-tech/whatsapp_move"
+      "homepage": "https://github.com/augchan42/whatsapp_move"
     }
   ]
 }

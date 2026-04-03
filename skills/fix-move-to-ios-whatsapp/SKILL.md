@@ -159,4 +159,4 @@ $ADB_DEVICE install -r -d -g /tmp/WhatsApp-fresh.apk
 
 ## Source
 
-Full technical investigation: https://github.com/digital-rain-tech/whatsapp_move
+Full technical investigation: https://github.com/augchan42/whatsapp_move
